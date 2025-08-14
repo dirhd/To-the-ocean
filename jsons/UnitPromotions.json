@@ -1,21 +1,51 @@
 [
-  {
-      "name": "Tar",
-	  	"uniques": ["[+30]% Strength <vs [Water] units>"],
-		  "unitTypes": ["Ranged Water"],
-      "column": 13,
-      "row": 1
-
-
-
-
-
-    
-  }
-
-
-
-
-
-  
+    {
+        "name": "엔진 1",
+        "prerequisites": [],
+        "uniques": ["[2] Movement"],
+        "unitTypes": ["대형함"],
+        "column": 1,
+        "row": 1
+    },
+    {
+        "name": "엔진 2",
+        "prerequisites": ["엔진 1"],
+        "uniques": ["[2] Movement"],
+        "unitTypes": ["대형함"],
+        "column": 1,
+        "row": 2
+    },
+    {
+        "name": "엔진 3",
+        "prerequisites": ["엔진 2"],
+        "uniques": ["[3] Movement"],
+        "unitTypes": ["대형함"],
+        "column": 1,
+        "row": 3
+    },
+    {
+        "name": "장갑 1",
+        "prerequisites": [],
+        "uniques": ["[-1] Movement", "[+50]% Strength when defending"],
+        "unitTypes": ["대형함"],
+        "column": 2,
+        "row": 1
+    },
+    {
+        "name": "장갑 2",
+        "prerequisites": ["장갑 1"],
+        "uniques": ["[-1] Movement", "[+50]% Strength when defending"],
+        "unitTypes": ["대형함"],
+        "column": 2,
+        "row": 2
+    },
+    {
+        "name": "장갑 3",
+        "prerequisites": ["장갑 2"],
+        "uniques": ["[-1] Movement", "[+70]% Strength when defending"],
+        "unitTypes": ["대형함"],
+        "column": 2,
+        "row": 3
+    }
 ]
+
