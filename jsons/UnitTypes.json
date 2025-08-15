@@ -1,0 +1,22 @@
+[
+  {
+    "name": "대형함",
+    "movementType": "Water"
+  }
+  {
+    "name": "소형함",
+    "movementType": "Water"
+  }
+  {
+    "name": "해상 지원",
+    "movementType": "Water"
+  }
+  {
+    "name": "잠수함",
+    "movementType": "Water"
+  }
+
+
+
+  
+]
