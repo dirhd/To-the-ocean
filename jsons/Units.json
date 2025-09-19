@@ -1,12 +1,72 @@
 [
 	{
 		"name": "순양함",
-		"unitType": "대형함",
+		"unitType": "순양함",
 		"movement": 5,
 		"strength": 90,
 		"rangedStrength": 36,
 		"range": 4,
-		"cost": 500,
+		"cost": 2500,
+		"requiredTech": "Ballistics",
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "shipCannonVolley"
+	}
+	{
+		"name": "전함",
+		"unitType": "전함",
+		"movement": 5,
+		"strength": 90,
+		"rangedStrength": 36,
+		"range": 4,
+		"cost": 2500,
+		"requiredTech": "Ballistics",
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "shipCannonVolley"
+	}
+	{
+		"name": "초계함",
+		"unitType": "초계함",
+		"movement": 5,
+		"strength": 90,
+		"rangedStrength": 36,
+		"range": 4,
+		"cost": 2500,
+		"requiredTech": "Ballistics",
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "shipCannonVolley"
+	}
+	{
+		"name": "구축함",
+		"unitType": "구축함",
+		"movement": 5,
+		"strength": 90,
+		"rangedStrength": 36,
+		"range": 4,
+		"cost": 2500,
+		"requiredTech": "Ballistics",
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "shipCannonVolley"
+	}
+	{
+		"name": "잠수함",
+		"unitType": "잠수함",
+		"movement": 5,
+		"strength": 90,
+		"rangedStrength": 36,
+		"range": 4,
+		"cost": 2500,
+		"requiredTech": "Ballistics",
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "shipCannonVolley"
+	}
+	{
+		"name": "항공모함",
+		"unitType": "항공모함",
+		"movement": 5,
+		"strength": 90,
+		"rangedStrength": 36,
+		"range": 4,
+		"cost": 2500,
 		"requiredTech": "Ballistics",
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "shipCannonVolley"
