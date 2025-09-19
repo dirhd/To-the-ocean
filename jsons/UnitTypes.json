@@ -1,10 +1,22 @@
 [
   {
-    "name": "대형함",
+    "name": "전함",
     "movementType": "Water"
   }
   {
-    "name": "소형함",
+    "name": "순양함",
+    "movementType": "Water"
+  }
+  {
+    "name": "초계함",
+    "movementType": "Water"
+  }
+  {
+    "name": "항공모함",
+    "movementType": "Water"
+  }
+  {
+    "name": "구축함",
     "movementType": "Water"
   }
   {
